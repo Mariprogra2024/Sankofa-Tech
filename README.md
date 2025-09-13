@@ -1,2 +1,2 @@
-# Projeto-Sancofa-Tech
-Projeto do grupo Sancofa Tech 
+# Projeto-Sankofa Tech
+Projeto do grupo Sankofa Tech 
