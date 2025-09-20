@@ -1,74 +1,183 @@
-body {
-  font-family: times, sans-serif;
-  background: white;
-  color: #333;
-  margin: 0;
-}
 
-header {
-  background: sienna;
-  color: white;
-  text-align: center;
-  padding: 30px;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sankofa Tech</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Header -->
+<header>
+<h1>Sankofa Tech: tecnologia, informação e acolhimento para mulheres periféricas</h1>
+<p class="subtitulo">Transformamos acesso digital em oportunidade, fortalecendo a autonomia de mulheres das periferias da cidade de São Paulo.</p>
+<div class="botoes">
+<a href="#participar">Quero participar</a>
+<a href="#apoiar">Quero apoiar</a>
+</div>
+</header>
 
+<main>
+<!-- Seção 1: O Desafio -->
+<section class="desafio">
 
-.subtitulo {
-  margin-top: 8px;
-  font-style: italic;
-}
+<h2>O Desafio</h2>
+<p>Muitas mulheres ainda enfrentam barreiras para acessar direitos e serviços:
+<ul>
+<li>Desinformação sobre programas sociais;</li>
+<li>Internet instável e falta de equipamentos;</li>
+<li>Baixo letramento digital, que dificulta a navegação online.</li>
+</ul>
+</section>
 
-section {
-  padding: 0 20px;
-  margin: 0 100px;
-}
+<!-- Seção 2: Nossa Proposta -->
+<section class="proposta">
+<h2>Nossa Proposta</h2>
+<p>O Sankofa Tech nasce para mudar essa realidade. Criamos um ecossistema híbrido – digital e presencial – que conecta mulheres a:</p>
+<ul>
+<li>Informações confiáveis sobre benefícios e serviços;</li>
+<li>Oficinas de letramento digital para ampliar a autonomia online;</li>
+<li>Rede de apoio comunitária com ONGs, escolas e coletivos locais.</li>
+</ul>
+<p>Mais do que tecnologia, oferecemos acolhimento, aprendizado e transformação.</p>
+</section>
 
-.sobre {
-  margin-bottom: 30px;
-}
+<!-- Seção 3: Como Funciona -->
+<section class="como-funciona">
+<h2>Como Funciona</h2>
+<p>Atuamos em duas frentes principais:</p>
+<div class="frentes">
+<div class="frente">
+<h3>Plataformas Digitais</h3>
+<p>Site e WhatsApp com filtros por tema (educação, saúde, alimentação e violência doméstica). Contém chatbot para respostas rápidas e suporte humano quando necessário.
+</p>
+</div>
+<div class="frente">
+<h3>Ações Presenciais</h3>
+<p>Oficinas de letramento digital, encontros comunitários e rodas de conversa.</p>
+</div>
+</div>
+</section>
 
-h2 {
-  color: sienna;
-  margin-bottom: 8px;
-}
+<!-- Seção 4: Impacto Social -->
+<section class="impacto">
+<h2>Impacto Social</h2>
+<p>Com o Sankofa Tech, esperamos:</p>
+<ul>
+<li>Reduzir barreiras de acesso à informação;</li>
+<li>Ampliar a autonomia digital;</li>
+<li>Criar redes de apoio femininas;</li>
+<li>Fortalecer a economia local e o protagonismo das mulheres periféricas.</li>
+</ul>
+</section>
 
-.imagem {
-  text-align: center;
-}
-.imagem img {
-  width: 500px;
-  max-width: 100%;
-  border-radius: 20px;
-}
+<!-- Seção 5: Participe -->
+<section id="participar" class="participe">
+<h2>Participe</h2>
+<p>O Sankofa Tech é coletivo. Você pode apoiar de diversas formas:</p>
+<ul>
+<li>Como parceira(o) institucional;</li>
+<li>Como voluntária(o) em oficinas e ações;</li>
+<li>Doando recursos materiais e financeiros.</li>
+</ul>
+<p>Junte-se a nós e faça parte dessa transformação.</p>
+<div class="botoes">
+<a href="#parceiro">Quero ser parceira(o)</a>
+<a href="#voluntariar">Quero voluntariar</a>
+<a href="#doar">Quero doar</a>
+</div>
+</section>
 
-.botoes {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-}
-a {
-  display: inline-block;
-  background-color: sienna;
-  color: white;
-  padding: 10px 16px;
-  text-decoration: none;
-  border-radius: 5px;
-}
-a:hover {
-  background-color: rebeccapurple;
-}
+<!-- Página: Sobre Nós -->
+<section class="sobre-nos">
+<h2>Sobre Nós</h2>
+<h3>Nossa História</h3>
+<p>O Sankofa Tech nasceu com o propósito de reduzir desigualdades digitais e sociais enfrentadas por mulheres periféricas. Através do projeto “FAVELA TECH”, idealizado pelo Museu das Favelas, Instituto das Pretas e Meta.</p>
+<p>Inspirado no símbolo africano Sankofa, que significa “voltar ao passado para resgatar o que é essencial”, o projeto olha para as raízes comunitárias para construir um futuro mais justo.</p>
+<h3>Quem Faz Parte</h3>
+<p>Um coletivo formado por mulheres da periferia, voluntárias, ONGs, coletivos locais e parceiros institucionais.</p>
+<h3>Manifesto Sankofa</h3>
+<p>Quando uma mulher periférica acessa seus direitos, toda a comunidade avança. Nunca é tarde para voltar e buscar o que ficou para trás.</p>
+<h3>Missão</h3>
+<p>Promover a inclusão tecnológica e social de mulheres periféricas, por meio de ações presenciais e plataforma digital acessível. Garantindo acesso à informação, direitos e oportunidades.</p>
+<h3>Visão</h3>
+<p>Ser referência em letramento digital para mulheres periféricas, contribuindo para a redução das desigualdades sociais e fortalecendo a autonomia feminina.</p>
+<h3>Valores</h3>
+<p><li>
+Inclusão: todas as mulheres têm direito ao acesso digital e à informação;</li>
 
-footer {
-  background-color: mediumpurple;
-  color: white;
-  text-align: center;
-  padding: 15px 10px;
-  font-size: 16px;
-}
+<li>
+Escuta ativa: criar espaços seguros de troca, escuta e aprendizado;</li>
 
+<li>
+Autonomia: capacitar mulheres para que usem a tecnologia de forma independente.</p></li>
+</section>
 
+<!-- Página: Ações Presenciais -->
+<section class="acoes-presenciais">
+<h2>Ações Presenciais</h2>
+<ul>
+<li>Oficinas de Letramento Digital: navegação básica, segurança online, uso de aplicativos e acesso a serviços públicos.</li>
+<li>Rodas de Conversa: espaços de acolhimento e troca entre mulheres.</li>
+<li>Parcerias Locais: encontros em escolas, ONGs e associações de bairro.</li>
+<li>Distribuição de Guias: materiais impressos com QR Codes que levam direto à plataforma.</li>
+</ul>
+</section>
 
-a:hover {
-  background-color: gray;
-}
+<!-- Página: Histórias e Depoimentos -->
+<section class="historias">
+<h2>Histórias e Depoimentos</h2>
+<div class="depoimentos">
+<div class="depoimento">
+<p>[Relato de uma participante]</p>
+<p><em>- Nome da participante - Em construção</em></p>
+</div>
+<div class="depoimento">
+<p>[Relato de uma participante]</p>
+<p><em>- Nome da participante - Em construção</em></p>
+</div>
+</div>
+<div class="videos">
+<p>[Espaço para vídeos curtos com depoimentos]</p>
+</div>
+<div class="galeria">
+<img src="placeholder.jpg" alt="Foto de evento">
+<img src="placeholder.jpg" alt="Foto de evento">
+</div>
+<div class="mural">
+<h3>Mural de Agradecimento</h3>
+<p>Agradecemos a todas as voluntárias e apoiadores que tornam o Sankofa Tech possível!</p>
+</div>
+</section>
+
+<!-- Página: Impactômetro -->
+<section class="impactometro">
+<h2>Impactômetro Sankofa</h2>
+<div class="metricas">
+<div class="metrica">
+<h3>Mulheres Capacitadas</h3>
+<p>[Número - Em construção]</p>
+</div>
+<div class="metrica">
+<h3>Oficinas Realizadas</h3>
+<p>[Número - Em construção]</p>
+</div>
+<div class="metrica">
+<h3>Atendimentos via WhatsApp</h3>
+<p>[Número - Em construção]</p>
+</div>
+<div class="metrica">
+<h3>Regiões Alcançadas</h3>
+<p>[Número - Em construção]</p>
+</div>
+</div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer>
+<p>&copy; Sankofa Tech 2025 - Favela Tech</p>
+</footer>
+</body>
+</html>
